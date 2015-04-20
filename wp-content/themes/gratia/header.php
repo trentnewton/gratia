@@ -8,7 +8,6 @@
 <meta name="robots" content="follow, index" />
 <link rel="icon" type="image/ico" href="<?php echo get_template_directory_uri(); ?>/assets/img/icons/favicon.ico" />
 <link rel="shortcut icon" type="image/ico" href="<?php echo get_template_directory_uri(); ?>/assets/img/icons/favicon.ico" />
-<link href="//hello.myfonts.net/count/2cfafb" rel="stylesheet">
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri(); ?>/assets/img/icons/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/assets/img/icons/apple-touch-icon-114x114.png">
