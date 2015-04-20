@@ -1,0 +1,21 @@
+/*
+Theme Name: Gratia
+Theme URI: http://www.gratiatutoring.com.au
+Author: Trent Newton
+Author URI: http://www.trentnewton.com
+License: License v1 or later
+License URI: fontlicense.txt
+Description: Original theme for Gratia Tutoring and Piano Academy.
+Version: 2.0
+Text Domain: gratia
+Tags: blue, white, fluid-layout, responsive-layout, translation-ready
+*/
+/* add this in for the wordpress police */
+.wp-caption {}
+.wp-caption-text {}
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
+.alignleft {}
+.alignright {}
+.aligncenter {}

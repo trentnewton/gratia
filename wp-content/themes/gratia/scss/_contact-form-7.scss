@@ -1,0 +1,81 @@
+div.wpcf7 {
+	margin: 0;
+	padding: 0;
+}
+
+div.wpcf7-response-output {
+	margin: 1rem 0 1rem;
+	padding: rem-calc(12);
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+}
+
+div.wpcf7 .screen-reader-response {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	width: 1px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div.wpcf7-mail-sent-ok {
+	border-color: scale-color($success-color, $lightness: -10%);
+	background-color: rgba($success-color, 0.5);
+}
+
+div.wpcf7-mail-sent-ng {
+	border-color: scale-color($alert-color, $lightness: -10%);
+	background-color: rgba($alert-color, 0.5);
+}
+
+div.wpcf7-spam-blocked,
+div.wpcf7-validation-errors {
+	border-color: scale-color($warning-color, $lightness: -10%);
+	background-color: rgba($warning-color, 0.5);
+}
+
+span.wpcf7-form-control-wrap {
+	position: relative;
+}
+
+span.wpcf7-not-valid-tip {
+	color: $white;
+	font-size: rem-calc(12);
+	display: block;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip { 
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 100;
+	border: 1px solid $alert-color;
+	background: $white;
+	padding: .2em .8em;
+}
+
+span.wpcf7-list-item {
+	margin-left: rem-calc(8);
+}
+
+.wpcf7-display-none {
+	display: none;
+}
+
+div.wpcf7 img.ajax-loader {
+	border: none;
+	vertical-align: middle;
+	margin-left: rem-calc(4);
+}
+
+div.wpcf7 div.ajax-error {
+	display: none;
+}
+
+div.wpcf7 .placeheld {
+	color: $jumbo;
+}
