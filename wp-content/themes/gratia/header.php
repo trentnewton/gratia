@@ -25,84 +25,84 @@
 <?php if(ot_get_option( 'slider_image1' ) != ''){ ?>
 <style>
 .carousel-bg1 {
-background:#87bdd9 url(<?php echo ot_get_option( 'slider_image1' ); ?>) 0% 80% no-repeat;
--ms-background-size: cover;
--o-background-size: cover;
--moz-background-size: cover;
--webkit-background-size: cover;
-background-size: cover;
+  background:#87bdd9 url(<?php echo ot_get_option( 'slider_image1' ); ?>) 0% 80% no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 </style>
 <?php } ?>
 <?php if(ot_get_option( 'slider_image2' ) != ''){ ?>
 <style>
 .carousel-bg2 {
-background:#87bdd9 url(<?php echo ot_get_option( 'slider_image2' ); ?>) 0% 80% no-repeat;
--ms-background-size: cover;
--o-background-size: cover;
--moz-background-size: cover;
--webkit-background-size: cover;
-background-size: cover;
+  background:#87bdd9 url(<?php echo ot_get_option( 'slider_image2' ); ?>) 0% 80% no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 </style>
 <?php } ?>
 <?php if(ot_get_option( 'slider_image3' ) != ''){ ?>
 <style>
 .carousel-bg3 {
-background:#87bdd9 url(<?php echo ot_get_option( 'slider_image3' ); ?>) 0% 80% no-repeat;
--ms-background-size: cover;
--o-background-size: cover;
--moz-background-size: cover;
--webkit-background-size: cover;
-background-size: cover;
+  background: #87bdd9 url(<?php echo ot_get_option( 'slider_image3' ); ?>) 0% 80% no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 </style>
 <?php } ?>
 <?php if(ot_get_option( 'slider_image4' ) != ''){ ?>
 <style>
 .carousel-bg4 {
-background:#87bdd9 url(<?php echo ot_get_option( 'slider_image4' ); ?>) 0% 80% no-repeat;
--ms-background-size: cover;
--o-background-size: cover;
--moz-background-size: cover;
--webkit-background-size: cover;
-background-size: cover;
+  background: #87bdd9 url(<?php echo ot_get_option( 'slider_image4' ); ?>) 0% 80% no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 </style>
 <?php } ?>
 <?php if(ot_get_option( 'slider_image4' ) != ''){ ?>
 <style>
 .carousel-bg4 {
-background:#87bdd9 url(<?php echo ot_get_option( 'slider_image4' ); ?>) 0% 80% no-repeat;
--ms-background-size: cover;
--o-background-size: cover;
--moz-background-size: cover;
--webkit-background-size: cover;
-background-size: cover;
+  background: #87bdd9 url(<?php echo ot_get_option( 'slider_image4' ); ?>) 0% 80% no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 </style>
 <?php } ?>
 <?php if(ot_get_option( 'slider_image5' ) != ''){ ?>
 <style>
 .carousel-bg5 {
-background:#87bdd9 url(<?php echo ot_get_option( 'slider_image5' ); ?>) 0% 80% no-repeat;
--ms-background-size: cover;
--o-background-size: cover;
--moz-background-size: cover;
--webkit-background-size: cover;
-background-size: cover;
+  background: #87bdd9 url(<?php echo ot_get_option( 'slider_image5' ); ?>) 0% 80% no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 </style>
 <?php } ?>
 <?php if(ot_get_option( 'slider_image6' ) != ''){ ?>
 <style>
 .carousel-bg6 {
-background:#87bdd9 url(<?php echo ot_get_option( 'slider_image6' ); ?>) 0% 80% no-repeat;
--ms-background-size: cover;
--o-background-size: cover;
--moz-background-size: cover;
--webkit-background-size: cover;
-background-size: cover;
+  background: #87bdd9 url(<?php echo ot_get_option( 'slider_image6' ); ?>) 0% 80% no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 </style>
 <?php } ?>
@@ -130,7 +130,7 @@ background-size: cover;
         <header class="main hidden-for-small">
         <div class="row">
         <div class="small-3 small-centered columns fade-animate">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/logo-hover.png" class="hide" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/logo-hover.png" width="0" height="0" class="hide" alt="">
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
           <div class="logo"></div>
         </a>

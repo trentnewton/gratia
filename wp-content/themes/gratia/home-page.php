@@ -89,16 +89,16 @@ Template Name: Home
     		<?php if(ot_get_option( 'first_subject_image' ) != ''){ ?>
             <div class="row">
                 <div class="small-4 columns fade-animate">
-                <img src="<?php echo ot_get_option( 'first_subject_image' ); ?>" alt="">
+                <img src="<?php echo ot_get_option( 'first_subject_image' ); ?>" width="303" height="379" alt="">
                 </div>
                 <?php if(ot_get_option( 'second_subject_image' ) != ''){ ?>
                 <div class="small-4 columns fade-animate">
-                <img src="<?php echo ot_get_option( 'second_subject_image' ); ?>" alt="">
+                <img src="<?php echo ot_get_option( 'second_subject_image' ); ?>" width="303" height="379" alt="">
                 </div>
                 <?php } ?>
                 <?php if(ot_get_option( 'third_subject_image' ) != ''){ ?>
                 <div class="small-4 columns fade-animate">
-                <img src="<?php echo ot_get_option( 'third_subject_image' ); ?>" alt="">
+                <img src="<?php echo ot_get_option( 'third_subject_image' ); ?>" width="303" height="379" alt="">
                 </div>
                 <?php } ?>
             </div>
@@ -160,7 +160,7 @@ Template Name: Home
             <div class="row">
             	<?php if(ot_get_option( 'first_person_about_us_image' ) != ''){ ?>
                 <div class="small-4 medium-3 large-3 columns small-centered medium-uncentered columns fade-animate">
-                <img class="img-round" src="<?php echo ot_get_option( 'first_person_about_us_image' ); ?>" alt="">
+                <img class="img-round" src="<?php echo ot_get_option( 'first_person_about_us_image' ); ?>" width="220" height="220" alt="">
                 </div>
                 <?php } ?>
                 <?php if(ot_get_option( 'first_person_about_us_image' ) != '') : 
@@ -180,7 +180,7 @@ Template Name: Home
             <div class="row">
             	<?php if(ot_get_option( 'second_person_about_us_image' ) != ''){ ?>
                 <div class="small-4 medium-3 large-3 push-9 columns small-centered medium-uncentered columns fade-animate">
-                	<img class="img-round" src="<?php echo ot_get_option( 'second_person_about_us_image' ); ?>" alt="">
+                	<img class="img-round" src="<?php echo ot_get_option( 'second_person_about_us_image' ); ?>" width="220" height="220" alt="">
                 </div>
                 <?php } ?>
                 <?php if(ot_get_option( 'second_person_about_us_image' ) != '') : 
