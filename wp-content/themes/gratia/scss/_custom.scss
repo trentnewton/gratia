@@ -799,6 +799,7 @@ p.copyright {
 		padding: rem-calc(0 8);
 		border-radius: 5px;
 		display: block;
+		text-align: center;
 
 		@media #{$small-only} {
 			padding: rem-calc(8);
