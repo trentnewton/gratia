@@ -10,7 +10,7 @@
                     <div class="small-7 medium-9 columns">
                     	<div class="find-us-icon">
                     	<a href="<?php echo ot_get_option( 'facebook_page_link' ); ?>" target="_blank">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/FB-FindUsOnFacebook.png" width="142" height="36" alt="<?php _e( 'Find us on Facebook', 'gratia' ); ?>" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/FB-FindUsOnFacebook.svg" width="142" height="36" alt="<?php _e( 'Find us on Facebook', 'gratia' ); ?>" />
                         </a>
                         </div>
                     </div>
