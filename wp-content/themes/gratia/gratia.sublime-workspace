@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"fil",
+				"fill"
+			],
+			[
+				"logo",
+				"logo-colour"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"te",
+				"text-bg"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
 				"fadeIn",
 				"fadeInDown"
 			],
@@ -30,10 +58,6 @@
 			[
 				"fon",
 				"font-weight"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"a",
@@ -136,10 +160,6 @@
 				"include"
 			],
 			[
-				"tr",
-				"transform"
-			],
-			[
 				"an",
 				"animation"
 			],
@@ -156,10 +176,6 @@
 				"section"
 			],
 			[
-				"fo",
-				"footer	Tag"
-			],
-			[
 				"p",
 				"php"
 			]
@@ -167,6 +183,94 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "scss/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 50931,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/gratia/.htaccess",
+			"settings":
+			{
+				"buffer_size": 3499,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_animate.scss",
+			"settings":
+			{
+				"buffer_size": 76734,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "stylesheets/app.css",
+			"settings":
+			{
+				"buffer_size": 107805,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "home-page.php",
+			"settings":
+			{
+				"buffer_size": 8531,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/enqueue-scripts.php",
+			"settings":
+			{
+				"buffer_size": 1541,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 6284,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_custom.scss",
+			"settings":
+			{
+				"buffer_size": 12506,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/gratia/.htaccess",
+			"settings":
+			{
+				"buffer_size": 3499,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/img/images/logo.svg",
+			"settings":
+			{
+				"buffer_size": 82344,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 2001,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -216,20 +320,56 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/nickriddel/wp-content/themes/nickriddel/stylesheets/app.css",
+		"/Applications/MAMP/htdocs/gratia/.gitignore",
+		"/Applications/MAMP/htdocs/kbcyouth/.gitignore",
+		"/Applications/MAMP/htdocs/gratia/final.htaccess",
+		"/Applications/MAMP/htdocs/gratia/.htaccess",
+		"/Applications/MAMP/htdocs/gratia/maintenance.html",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/js/contact-form-7/scripts.js",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/scss/_contact-form-7.scss",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/scss/_custom.scss",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/bower_components/foundation/scss/foundation/components/_alert-boxes.scss",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/scss/app.scss",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/js/app.js",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/footer.php",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/header.php",
+		"/Applications/MAMP/htdocs/kbcyouth2/.htaccess",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/bower_components/foundation/scss/foundation/components/_thumbs.scss",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia.old/scss/app.scss",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/gratia.sublime-project",
+		"/Applications/MAMP/htdocs/gratia/index.html",
+		"/Applications/MAMP/htdocs/gratia/hello!.html",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/style.css",
+		"/Applications/MAMP/htdocs/nickriddel/wp-content/themes/nickriddel/scss/_custom.scss",
+		"/Applications/MAMP/htdocs/gratia/wp-content/plugins/clearing-gallery/class.prso-foundation-5-clearing-gallery.php",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/library/theme-support.php",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/library/cleanup.php",
+		"/Applications/MAMP/htdocs/gratia/wp-content/plugins/contact-form-7/wp-contact-form-7.php",
+		"/Applications/MAMP/htdocs/nickriddel/wp-content/themes/nickriddel/scss/app.scss",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/scss/_settings.scss",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia.old/scss/icons.scss",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/library/enqueue-stylesheets.php",
 		"/Applications/MAMP/htdocs/nickriddel/wp-content/themes/nickriddel/scss/_settings.scss",
+		"/Applications/MAMP/htdocs/nickriddel/wp-content/themes/nickriddel/scss/_woocommerce.scss",
+		"/Applications/MAMP/htdocs/nickriddel/.htaccess",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/functions.php",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/library/foundation.php",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/library/enqueue-scripts.php",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia.old/js/custom.js",
+		"/Applications/MAMP/htdocs/gratia/wp-content/plugins/contact-form-7/includes/js/jquery.form.js",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/library/offcanvas-walker.php",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/library/navigation.php",
+		"/Users/trentnewton/Downloads/FoundationPress-master/library/custom-header.php",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia/library/entry-meta.php",
+		"/Applications/MAMP/htdocs/gratia/wp-content/themes/gratia.old/social.png",
+		"/Users/trentnewton/Downloads/trtr1746_kbcyouth-2.sql",
+		"/Applications/MAMP/htdocs/nickriddel/wp-content/themes/nickriddel/stylesheets/app.css",
 		"/Applications/MAMP/htdocs/nickriddel/wp-content/themes/nickriddel/library/enqueue-scripts.php",
 		"/Applications/MAMP/htdocs/nickriddel/wp-content/themes/nickriddel/library/enqueue-stylesheets.php",
 		"/Applications/MAMP/htdocs/nickriddel/wp-content/themes/nickriddel/header.php",
 		"/Applications/MAMP/htdocs/paulakernphoto/wp-content/themes/prophoto4/functions.php",
-		"/Users/trentnewton/Downloads/trtr1746_kbcyouth-2.sql",
-		"/Applications/MAMP/htdocs/gratia/.htaccess",
 		"/Users/trentnewton/.filezilla/sitemanager.xml",
-		"/Applications/MAMP/htdocs/nickriddel/wp-content/themes/nickriddel/scss/_custom.scss",
-		"/Applications/MAMP/htdocs/gratia/.gitignore",
-		"/Applications/MAMP/htdocs/gratia/final.htaccess",
 		"/Applications/MAMP/htdocs/kbcyouth2/final.htaccess",
-		"/Applications/MAMP/htdocs/kbcyouth2/.htaccess",
 		"/Applications/MAMP/htdocs/gratia/old.htaccess",
 		"/Applications/MAMP/htdocs/paulakernphoto/wp-content/themes/prophoto4/social.png",
 		"/Applications/MAMP/htdocs/paulakernphoto/wp-content/themes/prophoto4/admin.php",
@@ -240,7 +380,6 @@
 		"/Applications/MAMP/htdocs/nickriddelwordpress/wp-content/themes/nickriddel/footer.php",
 		"/Applications/MAMP/htdocs/nickriddelwordpress/wp-content/themes/nickriddel/js/app.js",
 		"/Applications/MAMP/htdocs/nickriddel/.gitignore",
-		"/Applications/MAMP/htdocs/nickriddel/.htaccess",
 		"/Applications/MAMP/htdocs/trucleanbeta/modules/mod_login/tmpl/default.php",
 		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/bower_components/foundation/scss/foundation/components/_alert-boxes.scss",
 		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/bower_components/foundation/scss/foundation/components/_reveal.scss",
@@ -308,42 +447,7 @@
 		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/html/mod_openglobal_virtuemart_categories/mod_openglobal_virtuemart_categories.php",
 		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/html/mod_breadcrumbs/default.php",
 		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/error.php",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/stylesheets/app.css",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/joomberui/css/app.css",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/html/mod_openglobal_virtuemart_categories/printcategories.php",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/html/com_virtuemart/productdetails/default_addtocart.php",
-		"/Applications/MAMP/htdocs/kbcyouth/wp-content/themes/kbcyouth/js/custom.js",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/html/mod_openglobal_virtuemart_categories/default.php",
-		"/Applications/MAMP/htdocs/trucleanbeta/untitled.html",
-		"/Applications/MAMP/htdocs/trucleanbeta/untitled2.html",
-		"/Applications/MAMP/htdocs/trucleanbeta/configuration.php",
-		"/Applications/MAMP/htdocs/nickriddelwordpress/wp-content/themes/nickriddel/stylesheets/app.css",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/html/mod_virtuemart_category/default.php",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/html/mod_openglobal_virtuemart_categories/tmpl/default.php",
-		"/Users/trentnewton/Downloads/icomoon148/sprite/sprite.html",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/joomberui/scss/foundation.scss",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/scss/_sprite.scss",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/scss/_icons.scss",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/scss/_joomla.scss",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/joomberui/js/custom.js",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/joomberui/css/icons.css",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/joomberui/css/joomla.css",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/language/en-GB/en-GB.tpl_truclean.sys.ini",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/language/en-GB/en-GB.tpl_truclean.ini",
-		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/scss/_custom.scss",
-		"/Users/trentnewton/Downloads/icomoon86663/demo-files/demo.css",
-		"/Users/trentnewton/Downloads/icomoon86663/demo.html",
-		"/Users/trentnewton/Downloads/icomoon148/sprite/sprite.css",
-		"/Users/trentnewton/Downloads/icomoon21824/sprite/sprite.css",
-		"/Applications/MAMP/htdocs/nickriddelwordpress/wp-content/themes/nickriddel/library/enqueue-scripts.php",
-		"/Applications/MAMP/htdocs/nickriddelwordpress/wp-content/themes/nickriddel/scss/_animate.scss",
-		"/Applications/MAMP/htdocs/nickriddelwordpress/wp-content/themes/nickriddel/library/enqueue-stylesheets.php",
-		"/Applications/MAMP/htdocs/nickriddelwordpress/wp-content/themes/nickriddel/scss/_select2.scss",
-		"/Applications/MAMP/htdocs/nickriddelwordpress/wp-content/plugins/woocommerce/assets/css/woocommerce.scss",
-		"/Applications/MAMP/htdocs/nickriddelwordpress/wp-content/themes/nickriddel/scss/_woocommerce.scss",
-		"/Applications/MAMP/htdocs/nickriddelwordpress/wp-content/themes/nickriddel/scss/app.scss",
-		"/Applications/MAMP/htdocs/nickriddelwordpress/wp-content/themes/nickriddel/bower_components/foundation/scss/foundation/_settings.scss",
-		"/Applications/MAMP/htdocs/nickriddelwordpress/wp-content/themes/nickriddel/scss/_settings.scss"
+		"/Applications/MAMP/htdocs/trucleanbeta/templates/truclean/stylesheets/app.css"
 	],
 	"find":
 	{
@@ -361,6 +465,75 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"moz-selection",
+			" fill=\"#489AC5\"",
+			"#489AC5",
+			"path fill=\"#489AC5\"",
+			"transition:",
+			"logo-h",
+			"logo.p",
+			"alive",
+			"ajax",
+			"loader",
+			"-webki",
+			"pricing",
+			"gainsboro",
+			"pricing tab",
+			"animated",
+			"fadeInUp",
+			"line-height",
+			"clearin",
+			"class",
+			"attachm",
+			"$lightness: 6",
+			"$lightness: 65",
+			"$lightness: 6",
+			"$lightness: 65%",
+			"e2e2e2",
+			"22. Pricing Tables",
+			"05. Buttons",
+			"408",
+			"#",
+			"e2",
+			"e2e2e2",
+			"margin",
+			"3c",
+			"rem-calc(15",
+			"e. Typography",
+			"e2e2e2",
+			"#a3cce1",
+			"#b",
+			"a:hover",
+			"efef",
+			"current-menu-item",
+			"upper",
+			"trans",
+			"$oil",
+			"34. Top Bar",
+			"font",
+			"ordered",
+			"button",
+			"11. forms",
+			"#{$assetPath}/img/",
+			"#{$assetPath}/img",
+			"../",
+			"#575757",
+			"jet",
+			"#2e6480",
+			"scale-color",
+			"#desktop-nav",
+			"link",
+			"AvenirLTStd",
+			"bread",
+			"#fff",
+			"#489ac5",
+			"3c3c3c",
+			"85858",
+			"#adadad",
+			"#4799c4",
+			"gratia  ",
+			"jquery-ui",
+			"foundationpress",
 			"htt",
 			"social",
 			"4.1",
@@ -419,76 +592,7 @@
 			"related",
 			"ver",
 			"horizontal-separator",
-			"inline",
-			"label",
-			"code",
-			"addtocart-button",
-			":",
-			"@media",
-			"breadcr",
-			"<script",
-			"08. dropdown",
-			"dropdown",
-			"type",
-			"bottom",
-			"table",
-			"bottom_header_wrap",
-			"media",
-			"small",
-			"rem-calc(10",
-			"marg",
-			"padding",
-			"$lightness: 40%",
-			"$lightness: 30%",
-			"$lightness: 20%",
-			".top_header_wrap",
-			"#",
-			"190,190,190",
-			"bebe",
-			"4d4d4d",
-			"404040",
-			"d8dfef",
-			"$saturation: -40%",
-			"$saturation: -50%",
-			"617dbe",
-			"$lightness: 50%",
-			"$lightness: 40%",
-			"#fdfaf8",
-			"f7f0e9",
-			":not(.button)",
-			"#f0e1d3",
-			"#e8d2bd",
-			"#e1c3a7",
-			"buttons",
-			"#d9b491",
-			"d9b491",
-			"#3c3c3c",
-			"transition",
-			"5a3512",
-			"buttons",
-			"button",
-			"reve",
-			"tables",
-			"buttons",
-			"forms",
-			"255,255,255",
-			"h5",
-			".top_header_wrap",
-			"css",
-			"../",
-			"joomberui",
-			"joomb",
-			"images",
-			"joomberui",
-			"$primary",
-			"-1",
-			"-",
-			"rem",
-			"$small-font-size",
-			"ta",
-			"30. Tables",
-			"table",
-			"0.875"
+			"inline"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -496,6 +600,23 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"path class=\"logo-colour\"",
+			"color: scale-color($primary-color, $saturation: -5%, $lightness: 48%)",
+			"#{$assetPath}/",
+			"$header-font-color",
+			"$anchor-font-color-hover",
+			"$white",
+			"$primary-color",
+			"$secondary-color",
+			"$primary-color",
+			"Gratia",
+			"gratia",
+			"Gratia",
+			"Gratia  ",
+			"gratia  ",
+			"Gratia  ",
+			"gratia  ",
 			"{\n         ",
 			";\n         ",
 			"",
@@ -544,8 +665,314 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "scss/_settings.scss",
+					"settings":
+					{
+						"buffer_size": 50931,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3119,
+								3125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1449.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/MAMP/htdocs/gratia/.htaccess",
+					"settings":
+					{
+						"buffer_size": 3499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3456,
+								3456
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 573.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/_animate.scss",
+					"settings":
+					{
+						"buffer_size": 76734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								325,
+								325
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "stylesheets/app.css",
+					"settings":
+					{
+						"buffer_size": 107805,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99029,
+								99042
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "home-page.php",
+					"settings":
+					{
+						"buffer_size": 8531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7981,
+								7981
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 1.0,
+						"translation.y": 37.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "library/enqueue-scripts.php",
+					"settings":
+					{
+						"buffer_size": 1541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								691,
+								691
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 6284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5812,
+								5812
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1357.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "scss/_custom.scss",
+					"settings":
+					{
+						"buffer_size": 12506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7194,
+								7194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Applications/MAMP/htdocs/gratia/.htaccess",
+					"settings":
+					{
+						"buffer_size": 3499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3456,
+								3456
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 573.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "assets/img/images/logo.svg",
+					"settings":
+					{
+						"buffer_size": 82344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								82343
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 22301.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "footer.php",
+					"settings":
+					{
+						"buffer_size": 2001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								726,
+								726
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 61.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
