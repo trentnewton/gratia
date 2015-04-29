@@ -29,7 +29,12 @@ $(document).ready(function(){
 	  pauseOnHover: false
 	});
 });
- 
+
+/*----------------------------------------------------*/
+/*  Add preloader gif to contact form
+/*----------------------------------------------------*/
+var _wpcf7 = {"loaderUrl":"/wp-content/themes/gratia/assets/img/images/preloader.gif","sending":"Sending ...","cached":"1"};
+
 /*----------------------------------------------------*/
 /*	Parrallax and scrolling things
 /*----------------------------------------------------*/
