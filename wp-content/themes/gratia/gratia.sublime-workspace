@@ -211,7 +211,7 @@
 			"file": "stylesheets/app.css",
 			"settings":
 			{
-				"buffer_size": 107805,
+				"buffer_size": 108590,
 				"line_ending": "Unix"
 			}
 		},
@@ -259,8 +259,8 @@
 			"file": "assets/img/images/logo.svg",
 			"settings":
 			{
-				"buffer_size": 82344,
-				"line_ending": "Windows"
+				"buffer_size": 0,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -268,6 +268,30 @@
 			"settings":
 			{
 				"buffer_size": 2001,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 1374,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_slick.scss",
+			"settings":
+			{
+				"buffer_size": 4122,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_contact-form-7.scss",
+			"settings":
+			{
+				"buffer_size": 1419,
 				"line_ending": "Unix"
 			}
 		}
@@ -665,7 +689,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 12,
 			"sheets":
 			[
 				{
@@ -680,8 +704,8 @@
 						"selection":
 						[
 							[
-								3119,
-								3125
+								0,
+								0
 							]
 						],
 						"settings":
@@ -689,7 +713,7 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1449.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -706,8 +730,8 @@
 						"selection":
 						[
 							[
-								3456,
-								3456
+								0,
+								0
 							]
 						],
 						"settings":
@@ -717,7 +741,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 573.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -734,8 +758,8 @@
 						"selection":
 						[
 							[
-								325,
-								325
+								0,
+								0
 							]
 						],
 						"settings":
@@ -755,15 +779,15 @@
 					"file": "stylesheets/app.css",
 					"settings":
 					{
-						"buffer_size": 107805,
+						"buffer_size": 108590,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								99029,
-								99042
+								0,
+								0
 							]
 						],
 						"settings":
@@ -791,8 +815,8 @@
 						"selection":
 						[
 							[
-								7981,
-								7981
+								0,
+								0
 							]
 						],
 						"settings":
@@ -801,8 +825,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 1.0,
-						"translation.y": 37.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -819,8 +843,8 @@
 						"selection":
 						[
 							[
-								691,
-								691
+								0,
+								0
 							]
 						],
 						"settings":
@@ -847,8 +871,8 @@
 						"selection":
 						[
 							[
-								5812,
-								5812
+								0,
+								0
 							]
 						],
 						"settings":
@@ -858,7 +882,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1357.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -875,8 +899,8 @@
 						"selection":
 						[
 							[
-								7194,
-								7194
+								0,
+								0
 							]
 						],
 						"settings":
@@ -902,8 +926,8 @@
 						"selection":
 						[
 							[
-								3456,
-								3456
+								0,
+								0
 							]
 						],
 						"settings":
@@ -913,7 +937,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 573.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -923,15 +947,15 @@
 					"file": "assets/img/images/logo.svg",
 					"settings":
 					{
-						"buffer_size": 82344,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								233,
-								82343
+								0,
+								0
 							]
 						],
 						"settings":
@@ -940,7 +964,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 22301.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -957,8 +981,8 @@
 						"selection":
 						[
 							[
-								726,
-								726
+								0,
+								0
 							]
 						],
 						"settings":
@@ -967,7 +991,88 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 61.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "js/app.js",
+					"settings":
+					{
+						"buffer_size": 1374,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "scss/_slick.scss",
+					"settings":
+					{
+						"buffer_size": 4122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "scss/_contact-form-7.scss",
+					"settings":
+					{
+						"buffer_size": 1419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},

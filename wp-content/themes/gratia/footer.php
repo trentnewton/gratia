@@ -33,6 +33,9 @@
             </div>
         </div>
         </footer>
+        <script type="text/javascript">
+            var templateUrl = '<?php bloginfo('template_directory'); ?>';
+        </script>
 		<?php wp_footer(); ?>
         <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
       </body>
