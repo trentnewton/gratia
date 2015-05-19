@@ -25,7 +25,7 @@
 <?php if(ot_get_option( 'slider_image1' ) != ''){ ?>
 <style>
 .carousel-bg1 {
-  background:#87bdd9 url(<?php echo ot_get_option( 'slider_image1' ); ?>) 0% 80% no-repeat;
+  background: #87bdd9 url(<?php echo ot_get_option( 'slider_image1' ); ?>) 0% 80% no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -37,7 +37,7 @@
 <?php if(ot_get_option( 'slider_image2' ) != ''){ ?>
 <style>
 .carousel-bg2 {
-  background:#87bdd9 url(<?php echo ot_get_option( 'slider_image2' ); ?>) 0% 80% no-repeat;
+  background: #87bdd9 url(<?php echo ot_get_option( 'slider_image2' ); ?>) 0% 80% no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
