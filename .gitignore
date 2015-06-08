@@ -1,5 +1,6 @@
 readme.html
 index.php
+database.sql
 wp-activate.php
 wp-blog-header.php
 wp-comments-post.php
@@ -24,7 +25,6 @@ wp-content/languages
 wp-content/upgrade
 wp-content/index.php
 wp-content/plugins/akismet
-wp-content/plugins/contact-form-7
 wp-content/plugins/smart-maintenance-mode
 wp-content/plugins/theme-check
 wp-content/plugins/hello.php

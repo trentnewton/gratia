@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18892",
+"creatorBuild": "19033",
 "files": {
 	"\/404.php": {
 		"fileType": 8192,
@@ -4281,45 +4281,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/library\/option-tree\/assets\/js\/vendor\/ace\/ace.js": {
+	"\/library\/option-tree\/assets\/js\/ot-postformats.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/option-tree\/assets\/js\/vendor\/ace\/ace.js",
-		"outputAbbreviatedPath": "\/library\/option-tree\/assets\/js\/vendor\/ace\/min\/ace-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/library\/option-tree\/assets\/js\/vendor\/ace\/mode-css.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/option-tree\/assets\/js\/vendor\/ace\/mode-css.js",
-		"outputAbbreviatedPath": "\/library\/option-tree\/assets\/js\/vendor\/ace\/min\/mode-css-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/library\/option-tree\/assets\/js\/vendor\/ace\/theme-chrome.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/option-tree\/assets\/js\/vendor\/ace\/theme-chrome.js",
-		"outputAbbreviatedPath": "\/library\/option-tree\/assets\/js\/vendor\/ace\/min\/theme-chrome-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/library\/option-tree\/assets\/js\/vendor\/ace\/worker-css.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/option-tree\/assets\/js\/vendor\/ace\/worker-css.js",
-		"outputAbbreviatedPath": "\/library\/option-tree\/assets\/js\/vendor\/ace\/min\/worker-css-min.js",
+		"inputAbbreviatedPath": "\/library\/option-tree\/assets\/js\/ot-postformats.js",
+		"outputAbbreviatedPath": "\/library\/option-tree\/assets\/js\/min\/ot-postformats-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
