@@ -1,6 +1,4 @@
         <footer>
-            <div class="bottom-bg-small show-for-small"></div>
-            <div class="bottom-bg hide-for-small"></div>
             <div id="main-footer">
                 <div class="row">
                     <div class="small-12 medium-3 large-3 push-9 columns">

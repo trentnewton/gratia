@@ -108,35 +108,33 @@
 <?php } ?>
 </head>
 <body <?php body_class(); ?>>
-    <div class="top-bg-small show-for-small"></div>
-    <div class="top-bg hide-for-small"></div>
-    <header class="main show-for-small-down">
-        <nav class="top-bar" data-topbar role="navigation">
-          <ul class="title-area">
-            <li class="name">
-              <h1>
-              <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="svg">
-              <object type="image/svg+xml" data="<?php echo get_template_directory_uri(); ?>/assets/img/images/logo-horizontal.svg" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" width="145" height="45"></object>
-              </a>
-              </h1>
-            </li>
-            <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-          </ul>
-          <section class="top-bar-section">
-          	<?php $args = array( 'menu' => 'mainnav', 'container' => false, 'menu_id' => false); wp_nav_menu($args); ?>
-          </section>
-        </nav>
-        </header>
-        <header class="main hidden-for-small">
+    <header class="main">
+      <nav class="top-bar show-for-small-down" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <h1>
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="svg">
+            <object type="image/svg+xml" data="<?php echo get_template_directory_uri(); ?>/assets/img/images/logo-horizontal.svg" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" width="145" height="45"></object>
+            </a>
+            </h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+        </ul>
+        <section class="top-bar-section">
+        	<?php $args = array( 'menu' => 'mainnav', 'container' => false, 'menu_id' => false); wp_nav_menu($args); ?>
+        </section>
+      </nav>
+      <div class="hidden-for-small">
         <div class="row">
-        <div class="small-3 small-centered columns fade-animate">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/logo-hover.png" width="0" height="0" class="hide" alt="">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-          <div class="logo"></div>
-        </a>
-        </div>
+          <div class="small-3 small-centered columns fade-animate">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/logo-hover.png" width="0" height="0" class="hide" alt="">
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+              <div class="logo"></div>
+            </a>
+          </div>
         </div>
         <div class="row fade-animate">
-        <?php $args = array( 'menu' => 'mainnav', 'container' => 'nav', 'container_id' => 'desktop-nav', 'menu_id' => false); wp_nav_menu($args); ?>
+          <?php $args = array( 'menu' => 'mainnav', 'container' => 'nav', 'container_id' => 'desktop-nav', 'menu_id' => false); wp_nav_menu($args); ?>
         </div>
-        </header>
+      </div>
+    </header>
