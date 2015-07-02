@@ -46,3 +46,20 @@ var _wpcf7 = {"loaderUrl":templateUrl + "/assets/img/images/preloader.gif","send
         }, 800);
         return false;
     });
+
+/*----------------------------------------------------*/
+/*  Make the footer sticky
+/*----------------------------------------------------*/
+
+$(window).bind("load", function () {
+    var footer = $("footer");
+    var pos = footer.position();
+    var height = $(window).height();
+    height = height - pos.top;
+    height = height - footer.height();
+    if (height > 0) {
+        footer.css({
+            'margin-top': height + 'px'
+        });
+    }
+});
