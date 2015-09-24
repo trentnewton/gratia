@@ -23,9 +23,6 @@ require_once('library/foundation.php');
 // Return entry meta information for posts
 // require_once('library/entry-meta.php');
 
-// Enqueue stylesheets
-require_once('library/enqueue-stylesheets.php');
-
 // Enqueue scripts
 require_once('library/enqueue-scripts.php');
 

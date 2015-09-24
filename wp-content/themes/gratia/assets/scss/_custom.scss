@@ -119,7 +119,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 main,
 nav,
 section,
@@ -140,10 +139,8 @@ em {
 body,
 input,
 textarea {
-	-ms-text-size-adjust:100%;
-	-webkit-text-size-adjust:100%;
-	-webkit-font-smooing:antialiased;
-	-moz-osx-font-smooing: grayscale;
+	text-size-adjust: 100%;
+	@extend .antialiased;
 }
 
 a,
@@ -162,16 +159,16 @@ a h5 {
 }
 
 .divider {
-	margin: rem-calc(30) 0;
+	margin: rem-calc(30 0);
 	height: 1px;
 	background: 
-	linear-gradient(to right, 
-		rgba($secondary-color,0) 0%,
-		rgba($secondary-color,0) 39%,
-		rgba($secondary-color,1) 40%,
-		rgba($secondary-color,1) 60%,
-		rgba($secondary-color,0) 61%,
-		rgba($secondary-color,0) 100%);
+		linear-gradient(to right, 
+			rgba($secondary-color,0) 0%,
+			rgba($secondary-color,0) 39%,
+			rgba($secondary-color,1) 40%,
+			rgba($secondary-color,1) 60%,
+			rgba($secondary-color,0) 61%,
+			rgba($secondary-color,0) 100%);
 }
 
 .hidden {
@@ -182,12 +179,8 @@ a h5 {
 	opacity: 1;
 }
 
-.fade-animate {
-	z-index: 9;
-}
-
 .centrelogo {
-	line-height: 70vh;
+	line-height: 70%;
 
 	img {
 		vertical-align: middle;
@@ -201,6 +194,16 @@ a h5 {
 .coming-soon {
 	text-align: center;
 	color: $secondary-color;
+}
+
+/* animations */
+
+.fade-animate {
+	z-index: 9;
+}
+
+.fadeInUp {
+	@include fadeInUp();
 }
 
 /* forms */
@@ -219,7 +222,7 @@ input.button {
 
 span.wpcf7-not-valid-tip {
 	display: block;
-	padding: rem-calc(6) rem-calc(9) rem-calc(9);
+	padding: rem-calc(6 9 9);
 	margin-top: -1px;
 	margin-bottom: 1rem;
 	font-weight: $font-weight-normal;
@@ -352,13 +355,13 @@ header.main {
 		content: '';
 		position: absolute;
 		background: $white url(#{$assetPath}/top-bg.png) top center;
-		background-size: 970px;
+		background-size: rem-calc(970);
 		height: rem-calc(20);
 		top: rem-calc(-20);
 		width: 100%;
 
 		@media #{$small-only} {
-			background-size: 320px;
+			background-size: rem-calc(320);
 			height: rem-calc(10);
 			top: rem-calc(-10);
 		}
@@ -409,7 +412,7 @@ header.main {
 			&:hover a,
 			a:hover,
 			a:active {
-				padding: 0 rem-calc(20);
+				padding: rem-calc(0 20);
 				display: block;
 				text-align: center;
 			}
@@ -611,7 +614,7 @@ footer {
 	}
 
 	.carousel {
-		width: 100vw;
+		width: 100%;
 	}
 
 }
@@ -762,13 +765,13 @@ footer {
 		content: '';
 		position: absolute;
 		background: $white url(#{$assetPath}/bottom-bg.png) top center;
-		background-size: 485px;
+		background-size: rem-calc(485);
 		height: rem-calc(20);
 		top: rem-calc(-20);
 		width: 100%;
 
 		@media #{$small-only} {
-			background-size: 160px;
+			background-size: rem-calc(160);
 			height: rem-calc(10);
 			top: rem-calc(-10);
 		}
@@ -777,13 +780,13 @@ footer {
 
 }
 
-p.copyright,
+.copyright,
 .inner-footer {
 	vertical-align: middle;
 	line-height: rem-calc(60);
 }
 
-p.copyright {
+.copyright {
 	margin-bottom: 0;
 
 	@media #{$small-only} {
@@ -805,7 +808,7 @@ p.copyright {
 	a {
 		background: scale-color($primary-color, $saturation: -5%, $lightness: 48%);
 		padding: rem-calc(0 8);
-		border-radius: 5px;
+		border-radius: rem-calc(5);
 		display: block;
 		text-align: center;
 
@@ -819,14 +822,32 @@ p.copyright {
 
 	}
 
-	img {
-
-	}
-
 }
 
 #top {
 	@extend .text-right;
+}
+
+// feature detection for the modern browsers
+
+.cssvhunit {
+
+	.centrelogo {
+		line-height: 70vh;
+	}
+
+}
+
+.cssvwunit {
+
+	#intro-text {
+
+		.carousel {
+			width: 100vw;
+		}
+
+	}
+
 }
 
 /* small screens */

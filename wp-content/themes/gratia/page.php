@@ -3,7 +3,7 @@
 		<header id="page-heading">
           <div class="page-heading-mask">
               <div class="row">
-                <div class="small-12 columns fade-animate">
+                <div class="column fade-animate">
                   <h1><?php the_title(); ?></h1>
                   </div>
               </div>
