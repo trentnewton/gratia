@@ -231,7 +231,8 @@ span.wpcf7-not-valid-tip {
 }
 
 ::placeholder {  
-	color: scale-color($secondary-color, $lightness: 50%);  
+	color: scale-color($secondary-color, $lightness: 50%);
+	opacity: 1;
 }
 
 /* ordered lists */
