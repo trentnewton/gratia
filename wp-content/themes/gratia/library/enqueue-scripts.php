@@ -24,6 +24,10 @@ if (!function_exists('gratia_scripts')) :
 
     wp_deregister_script( 'contact-form-7' );
 
+    // do not load the file: wp-embed.min.js (used since WordPress 4.4)
+
+    wp_dequeue_script( 'wp-embed' );
+
     // Self hosted jQuery placed in the footer. (Comment the script above and uncomment the script below if you want to switch).
     //wp_register_script( 'jquery', get_template_directory_uri() . '/js/vendor/jquery.js', array(), '2.1.3', true );
 
