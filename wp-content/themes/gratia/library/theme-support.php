@@ -88,8 +88,6 @@ function gratia_theme_support() {
 	remove_action( 'wp_print_styles', 'print_emoji_styles' );
 	remove_action( 'admin_print_styles', 'print_emoji_styles' );
 
-	add_action( 'after_setup_theme', 'gratia_theme_support' );
-
 	/**
 	 * Prevent certain plugins from receiving automatic updates, and auto-update the rest.
 	 *
@@ -112,5 +110,7 @@ function gratia_theme_support() {
 	    ) ) );
 	}
 	add_filter( 'auto_update_plugin', 'exclude_plugins_from_auto_update', 10, 2 );
+
+	add_action( 'after_setup_theme', 'gratia_theme_support' );
 
 endif;
